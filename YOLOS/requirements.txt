@@ -1,0 +1,16 @@
+numpy==2.2.6
+scipy==1.16.0
+pandas==2.3.1
+matplotlib==3.10.3
+pillow==11.3.0
+opencv-python==4.12.0.88
+torch==2.7.1
+torchvision==0.22.1
+triton==3.3.1
+ultralytics==8.3.163
+ultralytics-thop==2.0.14
+tqdm==4.67.1
+psutil==7.0.0
+py-cpuinfo==9.0.0
+PyYAML==6.0.2
+requests==2.32.4

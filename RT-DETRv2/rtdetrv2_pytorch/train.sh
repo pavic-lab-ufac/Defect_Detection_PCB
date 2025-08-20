@@ -1,0 +1,1 @@
+ python train.py --config path/to/configs/rtdetrv2/rtdetrv2_r18vd_120e_coco.yml --device cuda --use-amp --seed=0 

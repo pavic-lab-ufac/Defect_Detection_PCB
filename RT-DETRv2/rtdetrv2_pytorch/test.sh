@@ -1,0 +1,1 @@
+ python train.py -c path/to/config/rtdetrv2_r18vd_120e_coco.yml -r path/to/checkpoint/best.pth --test-only 
