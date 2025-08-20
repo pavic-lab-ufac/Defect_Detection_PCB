@@ -53,13 +53,13 @@ Python 3.9 ✅
 ### 1. Clone the Repository
 Download or clone the Defect_Detection_PCB repository:
 
-``` git clone https://github.com/pavic-lab-ufac/Defect_Detection_PCB.git```
+```git clone https://github.com/pavic-lab-ufac/Defect_Detection_PCB.git```
 
 ### 2. Install Requirements
 ```python3.9 -m pip install -r YOLOS/requirements.txt```
 
 ### 3. Download Dataset
-```link do dataset```
+```https://universe.roboflow.com/julio-ukpbk/pcb-izdbo/dataset/1```
 And place it to YOLOS/dataset/
 ### 4. Run
 ```
