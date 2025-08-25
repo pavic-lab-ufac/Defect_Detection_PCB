@@ -68,6 +68,7 @@ And place it to YOLOS/dataset/
 ```
 #YOLOV8
 yolo predict model=pretrained_weights/yolov8n.pt source='path to downloaded dataset'
+
 #YOLOV8 DWCONV
 yolo predict model=pretrained_weights/yolov8nDWconv.pt source='path to downloaded dataset'
 
