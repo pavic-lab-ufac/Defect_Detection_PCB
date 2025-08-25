@@ -1,17 +1,27 @@
 ﻿
 # Defect Detection in Printed Circuit Boards: A Comparative Analysis of Object Detection Models with Depthwise Convolution Adaptation
-
+**Manuscript ID:** IEEE LATAM Submission ID: 9899
+**Authors:**
+- Julio Martins
+- Josue Lopez-Cabrejos
+- Quefren Leher
+- Thuanne Paixão
+- Ana Beatriz Alvarez
+- Facundo Palomino-Quispe
+**Affiliations:**
+- PAVIC Laboratory, University of Acre (UFAC), Rio Branco, Brazil
+- LIECAR Laboratory, Universidad Nacional de San Antonio Abad del Cusco (UNSAAC), Cusco, Peru
+##
+Implementation of Defect Detection in Printed Circuit Boards: A Comparative Analysis of Object Detection Models with Depthwise Convolution Adaptation
 
 ![graphical abstract](https://github.com/pavic-lab-ufac/Defect_Detection_PCB/blob/main/figures/abstract.png)
-
-
 
 
 ## 📄 IEEE Latin America Manuscript Submission ID: 9899
  
 ## ✍️ Authors:
 
-Julio Martins, Josue Lopez-Cabrejos, Quefren Leher, Thuanne Paixão, Ana Beatriz Alvarez and Facundo Palomino-Quispe.
+
 
 
 
@@ -64,15 +74,14 @@ And place it to YOLOS/dataset/
 ### 4. Run
 ```
 #YOLOV8
-yolo predict model=pretrained_weights/yolov8n.pt source='path/image'
-
+yolo predict model=pretrained_weights/yolov8n.pt source='path to downloaded dataset'
 #YOLOV8 DWCONV
-yolo predict model=pretrained_weights/yolov8nDWconv.pt source='path/image'
+yolo predict model=pretrained_weights/yolov8nDWconv.pt source='path to downloaded dataset'
 
 #YOLOV11
-yolo predict model=pretrained_weights/yolo11n.pt source='path/image'
+yolo predict model=pretrained_weights/yolo11n.pt source='path to downloaded dataset'
 
 #YOLOV11 DWCONV
-yolo predict model=pretrained_weights/yolo11nDWconv.pt source='path/image'
+yolo predict model=pretrained_weights/yolo11nDWconv.pt source='path to downloaded dataset'
 
 ```
