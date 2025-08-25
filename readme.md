@@ -1,29 +1,22 @@
 ﻿
 # Defect Detection in Printed Circuit Boards: A Comparative Analysis of Object Detection Models with Depthwise Convolution Adaptation
-**Manuscript ID:** IEEE LATAM Submission ID: 9899
-**Authors:**
+## 📄 IEEE Latin America Manuscript Submission ID: 9899
+
+## ✍️ Authors:
 - Julio Martins
 - Josue Lopez-Cabrejos
 - Quefren Leher
 - Thuanne Paixão
 - Ana Beatriz Alvarez
 - Facundo Palomino-Quispe
-**Affiliations:**
+- 
+## 🏠 Affiliations:
 - PAVIC Laboratory, University of Acre (UFAC), Rio Branco, Brazil
 - LIECAR Laboratory, Universidad Nacional de San Antonio Abad del Cusco (UNSAAC), Cusco, Peru
 ##
 Implementation of Defect Detection in Printed Circuit Boards: A Comparative Analysis of Object Detection Models with Depthwise Convolution Adaptation
 
 ![graphical abstract](https://github.com/pavic-lab-ufac/Defect_Detection_PCB/blob/main/figures/abstract.png)
-
-
-## 📄 IEEE Latin America Manuscript Submission ID: 9899
- 
-## ✍️ Authors:
-
-
-
-
 
 The novelty of this investigation lies in the comparative study between the YOLOv8n, YOLOv11n, and RT-DETRv2 models for detecting defects in Printed Circuit Boards (PCBs). The study also explores modified versions of the YOLO architectures with Depthwise Convolution (YOLOv8n-DWConv and YOLOv11n-DWConv) to reduce computational cost.
 This approach consists of a comparative analysis using the PKU-Market-PCB dataset. It includes quantitative analysis based on metrics like precision, recall, and mAP, and a qualitative analysis with a visual examination of defect samples. The robustness of the models is also evaluated under challenging conditions with blur and illumination gradient noise.
